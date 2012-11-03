@@ -1,16 +1,16 @@
 %define		_state		stable
 %define		orgname		kde-base-artwork
-%define		qtver		4.8.1
+%define		qtver		4.8.3
 
 Summary:	K Desktop Environment - base artwork
 Summary(pl.UTF-8):	K Desktop Environment - podstawowe grafiki itp.
 Name:		kde4-kdebase-artwork
-Version:	4.9.2
+Version:	4.9.3
 Release:	1
 License:	LGPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	afd6fefd03e56c3378288a68ba388243
+# Source0-md5:	6597d3d52d7fccd18dd83bec14960680
 URL:		http://www.kde.org/
 BuildRequires:	QtCore-devel >= %{qtver}
 BuildRequires:	automoc4 >= 0.9.88
