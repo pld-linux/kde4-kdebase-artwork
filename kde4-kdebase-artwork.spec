@@ -5,12 +5,12 @@
 Summary:	K Desktop Environment - base artwork
 Summary(pl.UTF-8):	K Desktop Environment - podstawowe grafiki itp.
 Name:		kde4-kdebase-artwork
-Version:	4.9.3
+Version:	4.9.4
 Release:	1
 License:	LGPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	6597d3d52d7fccd18dd83bec14960680
+# Source0-md5:	2b7a46c90bfc783bcd46145fa24ed992
 URL:		http://www.kde.org/
 BuildRequires:	QtCore-devel >= %{qtver}
 BuildRequires:	automoc4 >= 0.9.88
