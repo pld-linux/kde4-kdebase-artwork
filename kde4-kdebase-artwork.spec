@@ -9,7 +9,7 @@ Version:	4.14.0
 Release:	1
 License:	LGPL
 Group:		X11/Applications
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
 # Source0-md5:	610a4314d84ecf50ad90b21b556d379a
 URL:		http://www.kde.org/
 BuildRequires:	QtCore-devel >= %{qtver}
